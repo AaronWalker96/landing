@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.logo {
+  height: 250px;
+  left: 50%;
+  margin-top: -125px;
+  margin-left: -175px;
+  position: absolute;
+  top: 50%;
+}
+
+#navbar {
+  overflow: hidden;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
