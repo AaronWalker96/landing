@@ -2,24 +2,49 @@ body {
   background-color: black;
 }
 
-.logo {
-  height: 250px;
+.container {
+  color: white;
   left: 50%;
-  margin-top: -125px;
+  margin-top: -150px;
   margin-left: -175px;
   position: absolute;
   top: 50%;
 }
 
-#navbar {
-  overflow: hidden;
+.buttonContainer {
+    display: flex;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
+.button {
+    width: 45%;
+    text-align: center;
+    border: solid white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+.mailto {
+    width: 45%;
+    text-align: center;
+    border: solid white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.mailto:hover {
+    color: black;
+    background-color: white;
 }
